@@ -1,2 +1,18 @@
 
 /* Your CSS Code here. */
+.holder {
+    display: flex; /* Activates Flexbox layout */
+    justify-content: center; /* Horizontally centers item-1 */
+    align-items: center; /* Vertically centers item-1 */
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.item-1 {
+    width: 100px; /* Set width of item-1 */
+    height: 100px; /* Set height of item-1 */
+    background-color: red; /* Set background color of item-1 */
+}
